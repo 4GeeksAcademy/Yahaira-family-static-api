@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.url_map.strict_slashes = False
 CORS(app)
 
-# create the jackson family object
+# Crear the jackson family object
 jackson_family = FamilyStructure("Jackson")
 jackson_family.add_member({
     "first_name": "John",
